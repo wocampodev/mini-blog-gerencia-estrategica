@@ -1,59 +1,78 @@
 <template>
   <div
-    class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
   >
-    <div class="mb-10 border-t border-b divide-y">
-      <div class="grid py-8 sm:grid-cols-4">
-        <div class="mb-4 sm:mb-0">
-          <div class="space-y-1 text-xs font-semibold tracking-wide uppercase">
-            <a
+    <div
+      class="mb-10 border-t divide-y transition duration-300 transform border rounded-md shadow-sm hover:scale-105 border-green-400 hover:border-green-600 group hover:shadow-sm p-4"
+    >
+      <div class="grid pt-8 sm:grid-cols-1 md:grid-cols-12">
+        <div class="mb-4 sm:mb-0 md:col-span-4">
+          <div
+            class="space-y-1 text-xs font-semibold tracking-wide uppercase lg:text-center"
+          >
+            <p
               href="/"
-              class="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              class="transition-colors font-extrabold duration-200 text-green-500 hover:text-green-700"
               aria-label="Category"
-              >Books</a
             >
-            <p class="text-gray-600">5 Jan 2020</p>
+              Fecha de publicación
+            </p>
+            <p class="text-gray-600 font-bold">
+              {{ post.createdAt | fechaPublicacion }}
+            </p>
           </div>
         </div>
-        <div class="sm:col-span-3 lg:col-span-2">
-          <div class="mb-3">
-            <a
-              href="/"
-              aria-label="Article"
-              class="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
-            >
-              <p
-                class="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl"
+        <div class="md:col-span-8">
+          <div class="mb-3 grid sm:grid-cols-1 lg:grid-cols-2">
+            <div class="lg:col-span-1">
+              <NuxtLink
+                :to="{ name: 'blog-slug', params: { slug: post.slug } }"
+                aria-label="Article"
+                class="inline-block text-black transition-colors duration-200 hover:text-green-700 sm:pt-3 lg:pt-0"
               >
-                Tell them I hate them
+                <h3 class="text-2xl font-bold leading-none">
+                  {{ post.title }}
+                </h3>
+              </NuxtLink>
+              <p class="text-gray-700 mt-3">
+                {{ post.description }}
               </p>
-            </a>
+              <p class="text-gray-700 mt-3">
+                <span class="font-bold">Autor:</span> {{ post.author.name }}
+              </p>
+              <NuxtLink
+                :to="{ name: 'blog-slug', params: { slug: post.slug } }"
+                aria-label=""
+                class="mt-5 inline-flex items-center font-bold transition-colors duration-200 rounded-md text-gray-50 px-4 py-2 bg-green-500 hover:bg-green-700"
+                >Leer más ...</NuxtLink
+              >
+            </div>
+            <div class="flex justify-center w-full lg:col-span-1">
+              <div class=" w-48 h-60">
+                <img class="mx-auto" :src="post.image" :alt="post.alt" />
+              </div>
+            </div>
           </div>
-          <p class="text-gray-700">
-            Well, the way they make shows is, they make one show. That show's
-            called a pilot. Then they show that show to the people who make
-            shows.
-          </p>
         </div>
       </div>
     </div>
-    <div class="text-center">
-      <a
-        href="/"
-        aria-label=""
-        class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-      >
-        See all articles
-        <svg
-          class="inline-block w-3 ml-2"
-          fill="currentColor"
-          viewBox="0 0 12 12"
-        >
-          <path
-            d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"
-          ></path>
-        </svg>
-      </a>
-    </div>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from "vue";
+import { fechaPublicacion } from "~/util/fechas";
+import { tituloPublicacion } from "~/util/textos";
+export default Vue.extend({
+  props: {
+    post: {
+      type: Object,
+      required: true
+    }
+  },
+  filters: {
+    fechaPublicacion,
+    tituloPublicacion
+  }
+});
+</script>

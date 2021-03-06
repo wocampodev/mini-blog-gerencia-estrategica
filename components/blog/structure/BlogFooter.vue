@@ -1,13 +1,13 @@
 <template>
   <div
-    class="px-5 flex flex-col justify-between pt-5 pb-5 border-t sm:flex-row"
+    class="sm:px-5 lg:px-20 flex flex-col justify-between pt-5 pb-5 border-t sm:flex-row"
   >
     <p class="text-sm text-gray-600 font-bold">© 2021</p>
     <div class="flex items-center mt-4 space-x-4 sm:mt-0">
       <a
         href="https://twitter.com/wal_code"
         target="_blank"
-        class="text-gray-500 transition-colors duration-300 hover:text-blue-500"
+        class="text-gray-500 transition-colors duration-300 hover:text-green-500"
       >
         <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
           <path
@@ -18,7 +18,7 @@
       <a
         href="https://github.com/wal-code"
         target="_blank"
-        class="text-gray-500 transition-colors duration-300 hover:text-blue-500"
+        class="text-gray-500 transition-colors duration-300 hover:text-green-500"
       >
         <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
           <path

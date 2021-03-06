@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 shadow-sm fixed min-w-full">
+  <div class="bg-gray-900 shadow-xl fixed min-w-full z-10">
     <div
       class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
@@ -10,7 +10,7 @@
               to="/blog"
               aria-label="Inicio"
               title="Inicio"
-              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-green-400"
               >Inicio</NuxtLink
             >
           </li>
@@ -19,7 +19,7 @@
               to="/blog"
               aria-label="Blog"
               title="Blog"
-              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-green-400"
               >Blog</NuxtLink
             >
           </li>
@@ -31,7 +31,7 @@
           class="inline-flex items-center lg:mx-auto"
         >
           <svg
-            class="w-8 text-teal-accent-400"
+            class="w-8 text-green-400"
             viewBox="0 0 24 24"
             stroke-linejoin="round"
             stroke-width="2"
@@ -55,7 +55,7 @@
               to="/about"
               aria-label="Acerca de"
               title="Acerca de"
-              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-green-400"
               >Acerca de</NuxtLink
             >
           </li>
@@ -93,7 +93,7 @@
                     class="inline-flex items-center"
                   >
                     <svg
-                      class="w-8 text-deep-purple-accent-400"
+                      class="w-8 text-green-400"
                       viewBox="0 0 24 24"
                       stroke-linejoin="round"
                       stroke-width="2"
@@ -136,7 +136,7 @@
                       to="/blog"
                       aria-label="Inicio"
                       title="Inicio"
-                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-green-400"
                       >Inicio</NuxtLink
                     >
                   </li>
@@ -145,7 +145,7 @@
                       to="/blog"
                       aria-label="Blog"
                       title="Blog"
-                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-green-400"
                       >Blog</NuxtLink
                     >
                   </li>
@@ -154,7 +154,7 @@
                       to="/about"
                       aria-label="Acerca de"
                       title="Acerca de"
-                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-green-400"
                       >Acerca de</NuxtLink
                     >
                   </li>

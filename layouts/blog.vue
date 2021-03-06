@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-gray-50">
+  <div class="bg-gray-100">
     <BlogNavbar />
-    <Nuxt class="pt-20 px-5" />
+    <Nuxt class="pt-20 px-5 nuxt-content" />
     <BlogFooter />
   </div>
 </template>

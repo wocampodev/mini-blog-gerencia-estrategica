@@ -2,7 +2,7 @@
   <a
     :href="link"
     target="_blank"
-    class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-500 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+    class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-green-500 hover:bg-green-700 focus:shadow-outline focus:outline-none"
   >
     {{ text }}
   </a>
@@ -18,7 +18,7 @@ export default Vue.extend({
     },
     text: {
       type: String,
-      default: "Visitar"
+      default: "Ir al sitio"
     }
   }
 });
