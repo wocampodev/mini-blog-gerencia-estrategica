@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="bg-gray-50">
     <BlogNavbar />
-    <BlogHeader />
-    <Nuxt class="min-h-50" />
+    <Nuxt class="pt-20 px-5" />
     <BlogFooter />
   </div>
 </template>
@@ -11,9 +10,3 @@
 import Vue from "vue";
 export default Vue.extend({});
 </script>
-
-<style>
-.min-h-50 {
-  min-height: 50vh;
-}
-</style>

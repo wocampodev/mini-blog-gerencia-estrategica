@@ -1,5 +1,8 @@
 <template>
-  <div>Hola</div>
+  <div>
+    <BlogHeader />
+    <div class="min-h-50 max-w-7xl mx-auto"></div>
+  </div>
 </template>
 
 <script lang="ts">
