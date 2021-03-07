@@ -1,11 +1,11 @@
 ---
-title: My first Blog Post
-description: Learning how to use @nuxt/content to create a blog
+title: Tercer Post
+description: Descripción del post
 image: https://i.ibb.co/GkXjtCT/logo-unprg.png
-alt: my first blog post
+alt: Imagen del post
 author:
-  name: Benjamin
-  bio: All about Benjamin
+  name: Walter Ocampo
+  bio: All about Walter Ocampo
   image: https://i.ibb.co/GkXjtCT/logo-unprg.png
 ---
 

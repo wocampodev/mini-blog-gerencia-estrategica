@@ -3,7 +3,7 @@
     class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
   >
     <div
-      class="mb-10 border-t divide-y transition duration-300 transform border rounded-md shadow-sm hover:scale-105 border-green-400 hover:border-green-600 group hover:shadow-sm p-4"
+      class="mb-10 border-t divide-y transition duration-300 transform border rounded-md shadow-sm hover:scale-105 bg-green-50 border-green-400 hover:border-green-600 group hover:shadow-sm p-4"
     >
       <div class="grid pt-8 sm:grid-cols-1 md:grid-cols-12">
         <div class="mb-4 sm:mb-0 md:col-span-4">
