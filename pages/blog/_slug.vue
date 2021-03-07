@@ -1,8 +1,8 @@
 <template>
   <div
-    class="min-h-50 max-w-7xl py-20 mx-auto grid sm:grid-cols-1 lg:grid-cols-4"
+    class="min-h-50 max-w-7xl pt-20 mx-auto grid sm:grid-cols-1 lg:grid-cols-4"
   >
-    <div class="pt-20 lg:col-span-1 w-full lg:relative">
+    <div class="lg:pt-20 sm:pt-10 lg:col-span-1 w-full lg:relative">
       <div class="rounded shadow-md group bg-white lg:sticky lg:top-20">
         <BlogTableContent
           v-for="link in post.toc"
@@ -12,21 +12,19 @@
       </div>
     </div>
     <!--Container-->
-    <div class="lg:container pt-20 w-full lg:col-span-3">
-      <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
+    <div class="lg:container pt-10 w-full lg:col-span-3">
+      <div class="w-full lg:px-6 text-xl text-gray-800 leading-normal">
         <!--Title-->
         <div>
-          <p class=" md:text-sm text-green-500 font-bold">
+          <p class="text-green-500 font-bold">
             &lt;
             <NuxtLink
               to="/blog"
-              class=" md:text-sm uppercase text-green-500 font-bold no-underline hover:underline"
+              class="sm:text-sm uppercase text-green-500 font-bold no-underline hover:underline"
               >Regresar al blog</NuxtLink
             >
           </p>
-          <h1
-            class="font-bold  break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl"
-          >
+          <h1 class="font-bold break-normal text-gray-900 pt-6 pb-2 text-2xl">
             {{ post.title }}
           </h1>
           <p class="text-sm font-normal text-gray-600">
@@ -35,7 +33,7 @@
         </div>
 
         <!--Post Content-->
-        <nuxt-content class="py-8" :document="post" />
+        <nuxt-content class="pt-8" :document="post" />
 
         <blockquote
           class="border-l-4 border-green-500 italic my-8 pl-8 md:pl-12"
@@ -44,11 +42,11 @@
           pariatur?
         </blockquote>
 
-        <p class="md:text-sm text-green-500 font-bold ">
+        <p class="sm:text-sm text-green-500 font-bold">
           &lt;
           <NuxtLink
             to="/blog"
-            class=" md:text-sm uppercase text-green-500 font-bold no-underline hover:underline"
+            class="sm:text-sm uppercase text-green-500 font-bold no-underline hover:underline"
             >Regresar al blog</NuxtLink
           >
         </p>

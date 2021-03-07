@@ -1,18 +1,18 @@
 <template>
   <div
-    class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    class="sm:px-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-12"
   >
     <div
-      class="mb-10 border-t divide-y transition duration-300 transform border rounded-md shadow-sm hover:scale-105 bg-green-50 border-green-400 hover:border-green-600 group hover:shadow-sm p-4"
+      class="mb-4 border-t divide-y transition duration-200 transform border rounded-md shadow-sm hover:scale-105 bg-green-50 border-green-400 hover:border-green-700 group hover:shadow-sm p-4"
     >
-      <div class="grid pt-8 sm:grid-cols-1 md:grid-cols-12">
-        <div class="mb-4 sm:mb-0 md:col-span-4">
+      <div class="grid pt-8 sm:grid-cols-1 lg:grid-cols-12">
+        <div class="mb-4 sm:mb-0 lg:col-span-4">
           <div
             class="space-y-1 text-xs font-semibold tracking-wide uppercase lg:text-center"
           >
             <p
               href="/"
-              class="transition-colors font-extrabold duration-200 text-green-500 hover:text-green-700"
+              class="transition-colors font-bold duration-200 text-green-500 hover:text-green-700"
               aria-label="Category"
             >
               Fecha de publicación
@@ -22,8 +22,8 @@
             </p>
           </div>
         </div>
-        <div class="md:col-span-8">
-          <div class="mb-3 grid sm:grid-cols-1 lg:grid-cols-2">
+        <div class="lg:col-span-8">
+          <div class="mb-3 grid lg:grid-cols-2">
             <div class="lg:col-span-1">
               <NuxtLink
                 :to="{ name: 'blog-slug', params: { slug: post.slug } }"
@@ -47,7 +47,7 @@
                 >Leer más ...</NuxtLink
               >
             </div>
-            <div class="flex justify-center w-full lg:col-span-1">
+            <div class="flex justify-center w-full lg:col-span-1 sm:pt-3">
               <div class=" w-48 h-60">
                 <img class="mx-auto" :src="post.image" :alt="post.alt" />
               </div>
@@ -61,8 +61,10 @@
 
 <script lang="ts">
 import Vue from "vue";
+
 import { fechaPublicacion } from "~/util/fechas";
 import { tituloPublicacion } from "~/util/textos";
+
 export default Vue.extend({
   props: {
     post: {
