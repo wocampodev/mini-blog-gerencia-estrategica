@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   purge: [
     "./components/**/*.{vue,js}",
@@ -25,7 +27,11 @@ module.exports = {
       "2xl": "1536px"
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: ["Quicksand", ...defaultTheme.fontFamily.sans]
+      }
+    }
   },
   variants: {
     extend: {}

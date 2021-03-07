@@ -2,7 +2,7 @@
   <!--Subscribe-->
   <div class="container px-4">
     <div
-      class="font-sans bg-gradient-to-b from-green-100 to-gray-100 rounded-lg shadow-xl p-4 text-center"
+      class="bg-gradient-to-b from-green-100 to-gray-100 rounded-lg shadow-xl p-4 text-center"
     >
       <h2 class="font-bold break-normal text-xl md:text-3xl">
         Subscribe to my Newsletter

@@ -1,9 +1,8 @@
 <template>
   <!--Next & Prev Links-->
-  <div class="font-sans flex justify-between content-center px-4 pb-12">
+  <div class="flex justify-between content-center px-4 pb-12">
     <div class="text-left">
-      <span class="text-xs md:text-sm font-normal text-gray-600"
-        >&lt; Previous Post</span
+      <span class="text-xs md:text-sm text-gray-600">&lt; Previous Post</span
       ><br />
       <p>
         <a
@@ -14,9 +13,7 @@
       </p>
     </div>
     <div class="text-right">
-      <span class="text-xs md:text-sm font-normal text-gray-600"
-        >Next Post &gt;</span
-      ><br />
+      <span class="text-xs md:text-sm text-gray-600">Next Post &gt;</span><br />
       <p>
         <a
           href="#"
