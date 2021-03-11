@@ -22,7 +22,10 @@
       </svg>
     </div>
     <div class="text-gray-800" :class="{ 'font-bold': link.depth === 2 }">
-      <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
+      <!-- <NuxtLink class="cursor-default" :to="`#${link.id}`">{{
+        link.text
+      }}</NuxtLink> -->
+      {{ link.text }}
     </div>
   </div>
 </template>

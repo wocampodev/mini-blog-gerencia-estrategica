@@ -48,8 +48,12 @@
               >
             </div>
             <div class="flex justify-center w-full lg:col-span-1 sm:pt-3">
-              <div class=" w-48 h-60">
-                <img class="mx-auto" :src="post.image" :alt="post.alt" />
+              <div>
+                <img
+                  class="rounded-md mx-auto"
+                  :src="post.image"
+                  :alt="post.alt"
+                />
               </div>
             </div>
           </div>

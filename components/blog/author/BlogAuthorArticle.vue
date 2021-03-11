@@ -1,5 +1,4 @@
 <template>
-  <!--Author-->
   <div class="flex w-full items-center font-sans px-4 py-12">
     <img
       class="w-10 h-10 rounded-full mr-4"
@@ -27,5 +26,4 @@
       </button>
     </div>
   </div>
-  <!--/Author-->
 </template>

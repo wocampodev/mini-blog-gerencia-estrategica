@@ -11,10 +11,8 @@
         />
       </div>
     </div>
-    <!--Container-->
     <div class="lg:container pt-10 w-full lg:col-span-3">
       <div class="w-full lg:px-6 text-xl text-gray-800 leading-normal">
-        <!--Title-->
         <div>
           <p class="text-green-500 font-bold">
             &lt;
@@ -33,14 +31,12 @@
         </div>
 
         <!--Post Content-->
-        <nuxt-content class="pt-8" :document="post" />
+        <nuxt-content
+          class="font-serif pt-6 text-md post-content"
+          :document="post"
+        />
 
-        <blockquote
-          class="border-l-4 border-green-500 italic my-8 pl-8 md:pl-12"
-        >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos,
-          pariatur?
-        </blockquote>
+        <br />
 
         <p class="sm:text-sm text-green-500 font-bold">
           &lt;
@@ -52,7 +48,6 @@
         </p>
       </div>
     </div>
-    <!--/container-->
   </div>
 </template>
 
@@ -65,7 +60,7 @@ export default {
       const post = await $content("posts", params.slug)
         .sortBy("createdAt", "asc")
         .fetch();
-    //   console.log(post);
+      console.log(post);
       return { post };
     } catch (e) {
       error(e);
@@ -76,3 +71,15 @@ export default {
   }
 };
 </script>
+
+<style lang="css">
+.post-content * {
+  @apply font-sans;
+}
+.post-content p {
+  @apply text-justify;
+}
+.post-content a {
+  @apply text-left;
+}
+</style>
