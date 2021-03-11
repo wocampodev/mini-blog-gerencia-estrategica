@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 font-sans">
+  <div class="bg-gray-100 font-sans overflow-x-hidden">
     <BlogNavbar />
     <Nuxt class="pt-20 px-5 nuxt-content" />
     <BlogFooter />
