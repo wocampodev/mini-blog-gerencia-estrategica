@@ -21,3 +21,12 @@
   border: 2px solid #108775;
   border-color: rgba(16, 135, 117, var(--border-opacity));
 }
+.post-content * {
+  @apply font-sans;
+}
+.post-content p {
+  @apply text-justify;
+}
+.post-content a {
+  @apply text-left;
+}

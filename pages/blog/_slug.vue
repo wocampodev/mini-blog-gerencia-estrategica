@@ -71,15 +71,3 @@ export default {
   }
 };
 </script>
-
-<style lang="css">
-.post-content * {
-  @apply font-sans;
-}
-.post-content p {
-  @apply text-justify;
-}
-.post-content a {
-  @apply text-left;
-}
-</style>
