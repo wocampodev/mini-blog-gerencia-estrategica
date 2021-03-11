@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-gray-900 shadow-xl fixed min-w-full z-10">
+  <div class="bg-gray-900 shadow-md fixed min-w-full z-10">
     <div
       class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
-      <div class="relative grid items-center grid-cols-2 lg:grid-cols-3">
-        <ul class="lg:flex flex items-center hidden space-x-8">
+      <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
+        <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <NuxtLink
               to="/blog"
@@ -49,7 +49,7 @@
             >Gerencia Estratégica</span
           >
         </NuxtLink>
-        <ul class="lg:flex flex items-center hidden ml-auto space-x-8">
+        <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
           <li>
             <NuxtLink
               to="/about"
@@ -82,7 +82,7 @@
               ></path>
             </svg>
           </button>
-          <div v-if="isMenuOpen" class="absolute top-0 left-0 w-full z-10">
+          <div v-if="isMenuOpen" class="absolute top-0 left-0 w-full">
             <div class="p-5 bg-white border rounded shadow-sm">
               <div class="flex items-center justify-between mb-4">
                 <div>
