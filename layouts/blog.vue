@@ -8,5 +8,19 @@
 
 <script lang="ts">
 import Vue from "vue";
-export default Vue.extend({});
+export default Vue.extend({
+  head() {
+    return {
+      title: "Gerencia Estratégica - Blog",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: "Este es un blog sobre Gerencia Estratégica"
+        }
+      ]
+    };
+  }
+});
 </script>

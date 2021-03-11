@@ -14,7 +14,7 @@ Para hacer un análisis del entorno externo se puede usar las siguientes 3 herra
 
 <br>
 
-<h2 class="text-left" id="1-análisis-pestel">
+<h2 class="text-left">
    <strong>1. Análisis PESTEL</strong>
 </h2>
 
@@ -28,45 +28,45 @@ Las consideraciones que se deben tomar en cuenta en cada factor son:
 
 <br>
 
-   1. **Factores políticos**
+- **Factores políticos**
 
-      El análisis de aspectos gubernamentales que afectan directamente en la empresa. Por ejemplo, las políticas impositivas, las regulaciones sobre el empleo, el fomento del comercio exterior, la estabilidad política, los tratados internacionales y más.
-
-<br>
-
-   2. **Factores económicos**
-
-      El análisis de los datos macroeconómicos en el contexto nacional e internacional. Por ejemplo, la evolución del PBI, las tasas de interés, la inflación, la tasa de desempleo y más.
+El análisis de aspectos gubernamentales que afectan directamente en la empresa. Por ejemplo, las políticas impositivas, las regulaciones sobre el empleo, el fomento del comercio exterior, la estabilidad política, los tratados internacionales y más.
 
 <br>
 
-   3. **Factores sociales**
+- **Factores económicos**
 
-      El análisis socio-cultural de las personas. Por ejemplo, la evolución demográfica, la movilidad social, cambios en el estilo de vida, la moda y más.
-
-<br>
-
-   4. **Factores** **tecnológicos**
-
-      El análisis del estado actual de la inversión pública en la investigación y la promoción del desarrollo tecnológico ya que la tecnología en sí avanza muy rápido.
+El análisis de los datos macroeconómicos en el contexto nacional e internacional. Por ejemplo, la evolución del PBI, las tasas de interés, la inflación, la tasa de desempleo y más.
 
 <br>
 
-   5. **Factores** **ecológicos**
+- **Factores sociales**
 
-      El análisis sobre la conciencia respecto a la conservación del medio ambiente. Por ejemplo, el cambio climático, los riesgos naturales, los niveles de reciclaje y más.
+El análisis socio-cultural de las personas. Por ejemplo, la evolución demográfica, la movilidad social, cambios en el estilo de vida, la moda y más.
 
 <br>
 
-   6. **Factores** **legales**
+- **Factores** **tecnológicos**
 
-      El análisis de las leyes en el lugar donde y aquel lugar donde va a operar la empresa. Por ejemplo: información sobre licencias, legislación laboral, propiedad intelectual, leyes sanitarias y más.
+El análisis del estado actual de la inversión pública en la investigación y la promoción del desarrollo tecnológico ya que la tecnología en sí avanza muy rápido.
+
+<br>
+
+- **Factores** **ecológicos**
+
+El análisis sobre la conciencia respecto a la conservación del medio ambiente. Por ejemplo, el cambio climático, los riesgos naturales, los niveles de reciclaje y más.
+
+<br>
+
+- **Factores** **legales**
+
+El análisis de las leyes en el lugar donde y aquel lugar donde va a operar la empresa. Por ejemplo: información sobre licencias, legislación laboral, propiedad intelectual, leyes sanitarias y más.
 
 <br>
 
 ![Alt](https://branch.com.co/wp-content/uploads/2020/03/matriz-pestel-analisis-de-entorno.png "Imagen sobre Análisis PESTEL")
 
-<div>
+<div class="max-w-full">
    Fuente: 
    <a class="text-blue-500 underline" href="https://branch.com.co/marketing-digital/todo-lo-que-necesitas-saber-sobre-el-analisis-del-entorno-de-una-empresa/" target="_blank">
       https://branch.com.co/marketing-digital/todo-lo-que-necesitas-saber-sobre-el-analisis-del-entorno-de-una-empresa/
@@ -75,8 +75,7 @@ Las consideraciones que se deben tomar en cuenta en cada factor son:
 
 <br>
 
-<!-- ## **2. Análisis de las cinco fuerzas de Porter** -->
-<h2 class="text-left" id="2-análisis-de-las-cinco-fuerzas-de-porter">
+<h2 class="text-left">
    <strong>2. Análisis de las cinco fuerzas de Porter</strong>
 </h2>
 
@@ -90,39 +89,39 @@ Estas cinco fuerzas se van a describir del siguiente modo:
 
 <br>
 
-1. **El poder de negociación de los clientes**
+- **El poder de negociación de los clientes**
 
-   Los clientes de una empresa están enterados sobre las distintas opciones de producto y precios que están presentes en el mercado. Es por ello que cada vez son más exigentes, tanto con la calidad de los productos como con los precios por eso es importante que se conozcan bien a los clientes que se tiene, de forma que se pueda predecir los efectos que significaría un ajuste de precio.
-
-<br>
-
-2. **El poder de negociación de los proveedores**
-
-   Esta va a consistir en analizar las relaciones que hay con los proveedores, para que se puedan considerar aumentos de precios o cambios de los mismos proveedores, que generen una reducción o un incremento en los costos.
+Los clientes de una empresa están enterados sobre las distintas opciones de producto y precios que están presentes en el mercado. Es por ello que cada vez son más exigentes, tanto con la calidad de los productos como con los precios por eso es importante que se conozcan bien a los clientes que se tiene, de forma que se pueda predecir los efectos que significaría un ajuste de precio.
 
 <br>
 
-3. **Amenaza de nuevos competidores entrantes**
+- **El poder de negociación de los proveedores**
 
-   Se refiere a cada una de las empresas o marcas que quieren empezar a competir en una industrial que prioritariamente tienen el mismo sentido o productos parecidos.
-
-<br>
-
-4. **Amenaza de nuevo productos sustitutos**
-
-   Este peligro o amenaza se va a presentar cuando los productos que son sustitutos empiecen a ser más baratos. Esto llevará a la empresa a tener que buscar una forma de reducir los costos de producción para reducir el precio de su producto.
+Esta va a consistir en analizar las relaciones que hay con los proveedores, para que se puedan considerar aumentos de precios o cambios de los mismos proveedores, que generen una reducción o un incremento en los costos.
 
 <br>
 
-5. **Rivalidad entre los competidores**
+- **Amenaza de nuevos competidores entrantes**
 
-   Para estudiar la rivalidad que hay en el mercado se recomienda determinar cuál es la posición de la empresa con respecto a sus competidores, esto se hace por medio de una medición del mercado que es abarcado por la empresa, determinando la penetración que tiene esta y comparando los precios de los productos, las innovaciones presentes, la tecnología que se usa y la calidad de los productos.
+Se refiere a cada una de las empresas o marcas que quieren empezar a competir en una industrial que prioritariamente tienen el mismo sentido o productos parecidos.
+
+<br>
+
+- **Amenaza de nuevo productos sustitutos**
+
+Este peligro o amenaza se va a presentar cuando los productos que son sustitutos empiecen a ser más baratos. Esto llevará a la empresa a tener que buscar una forma de reducir los costos de producción para reducir el precio de su producto.
+
+<br>
+
+- **Rivalidad entre los competidores**
+
+Para estudiar la rivalidad que hay en el mercado se recomienda determinar cuál es la posición de la empresa con respecto a sus competidores, esto se hace por medio de una medición del mercado que es abarcado por la empresa, determinando la penetración que tiene esta y comparando los precios de los productos, las innovaciones presentes, la tecnología que se usa y la calidad de los productos.
 
 <br>
 
 ![Alt](https://branch.com.co/wp-content/uploads/2020/03/cinco-fuerzas-de-porter-2048x1327.png, "Imagen sobre las 5 fuerzas de Porter")
 
-<div>
+<div class="max-w-full">
    Fuente: 
    <a class="text-blue-500 underline" href="https://branch.com.co/marketing-digital/todo-lo-que-necesitas-saber-sobre-el-analisis-del-entorno-de-una-empresa/" target="_blank">
       https://branch.com.co/marketing-digital/todo-lo-que-necesitas-saber-sobre-el-analisis-del-entorno-de-una-empresa/
@@ -131,14 +130,13 @@ Estas cinco fuerzas se van a describir del siguiente modo:
 
 <br>
 
-<!-- ## **3. Análisis DAFO o Matriz FODA** -->
-<h2 class="text-left" id="3-análisis-dafo-o-matriz-foda">
+<h2 class="text-left">
    <strong>3. Análisis DAFO o Matriz FODA</strong>
 </h2>
 
 <br>
 
-Esta ultima herramienta que no es específicamente para hacer un análisis externo del entorno de una organización **se trata** **de un diagnóstico estratégico en el que por medio de la información obtenida se muestra el estado que tiene la empresa en función de sí misma y del entorno en el que se está desarrollando.** Este estudio va a consistir en un proceso donde se analizarán las debilidades, amenazas, fortalezas y oportunidades que hay en una empresa, para esto debe conocer la situación actual de la empresa.
+Esta ultima herramienta que no es específicamente para hacer un análisis externo del entorno de una organización **se trata de un diagnóstico estratégico en el que por medio de la información obtenida se muestra el estado que tiene la empresa en función de sí misma y del entorno en el que se está desarrollando.** Este estudio va a consistir en un proceso donde se analizarán las debilidades, amenazas, fortalezas y oportunidades que hay en una empresa, para esto debe conocer la situación actual de la empresa.
 
 <br>
 
@@ -148,7 +146,7 @@ En el análisis externo, se estudian y analizan las oportunidades (lo que quiere
 
 ![Alt](https://branch.com.co/wp-content/uploads/2020/03/analisis-foda-2048x1507.png, "Imagen sobre en análisis FODA")
 
-<div>
+<div class="max-w-full">
    Fuente: 
    <a class="text-blue-500 underline" href="https://branch.com.co/marketing-digital/todo-lo-que-necesitas-saber-sobre-el-analisis-del-entorno-de-una-empresa/" target="_blank">
       https://branch.com.co/marketing-digital/todo-lo-que-necesitas-saber-sobre-el-analisis-del-entorno-de-una-empresa/
@@ -157,8 +155,7 @@ En el análisis externo, se estudian y analizan las oportunidades (lo que quiere
 
 <br>
 
-<!-- ## **Bibliografía** -->
-<h2 class="text-left" id="bibliografía">
+<h2 class="text-left">
    <strong>Bibliografía</strong>
 </h2>
 
