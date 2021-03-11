@@ -4,7 +4,7 @@
       class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
       <div class="relative grid items-center grid-cols-2 lg:grid-cols-3">
-        <ul class="lg:flex items-center hidden space-x-8">
+        <ul class="lg:flex flex items-center hidden space-x-8">
           <li>
             <NuxtLink
               to="/blog"
@@ -49,7 +49,7 @@
             >Gerencia Estratégica</span
           >
         </NuxtLink>
-        <ul class="lg:flex items-center hidden ml-auto space-x-8">
+        <ul class="lg:flex flex items-center hidden ml-auto space-x-8">
           <li>
             <NuxtLink
               to="/about"
