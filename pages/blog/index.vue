@@ -28,6 +28,7 @@ export default {
   }
 };
 </script>
+
 <style>
 .home-enter-active,
 .home-leave-active {
